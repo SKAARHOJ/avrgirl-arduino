@@ -1,4 +1,14 @@
 var boards = [
+   {
+    name: 'skaarduinoavr',
+    baud: 115200,
+    signature: new Buffer([0x1e, 0x97, 0x05]),
+    pageSize: 0xd7,
+    numPag: 0xa0,
+    timeout: 9000,
+    productId: ['0x0043', '0x7523', '0x0001', '0xea60'],
+    protocol: 'stk500v2'
+  },
   {
     name: 'uno',
     baud: 115200,
